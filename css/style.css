@@ -94,6 +94,7 @@ h1 {
     display: inline-block;
 }
 
+/* <!-- PORTFOLIO --> */
 #portfolio{
     background-color: rgb(247, 243, 243);
     text-align: center;
@@ -103,23 +104,46 @@ h1 {
 #portfolio img{
     width: 200px;
     height: 150px;
-    margin: 5px;
-    transition-duration: 1s;    
+    margin: 5px; 
 }
 
-#portfolio div{
-    padding: 0;
+.grid {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 1rem;
 }
 
-#portfolio img:hover {
-    transform: rotate(-20deg);
+.loader {
+    background-color: #133955ac;
+    position: fixed;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    z-index: 1000;
+}
+  
+.loader::before {
+    content: "";
+    width: 40px;
+    border-radius: 50%;
+    height: 40px;
+    border: 5px solid #000;
+    background-color: #051f2f;
+    animation: spin linear 1s infinite;
+    border-top: 5px solid #bdb7b7;
 }
 
-#portfolio #img-5:hover {
-    transform: rotate(180deg);
-    border-radius: 40%;
+@keyframes spin {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(1turn);
+    }
 }
 
+/* <!-- PORTFOLIO END --> */
 
 #contact iframe {
     border-radius: 50%; 
