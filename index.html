@@ -208,27 +208,32 @@
     </section>
     <section id="mail" class="d-flex flex-column align-items-center">
         <h2>Email US</h2>
-        <form action="/route" method="post" class="">
+        <form id="contactForm" action="/route" method="post" class="">
             <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Name*</label>
+                <label for="name" class="form-label">Name*</label>
                 <input type="text" class="form-control" id="name" required>
+                <div class="error-message" id="nameError"></div>
             </div>
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Email*</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" placeholder="name@example.com"
                     aria-describedby="emailHelp" required>
+                <div class="error-message" id="emailError"></div>
             </div>
             <div class="mb-3">
                 <label for="phone" class="form-label">Phone</label>
-                <input type="text" class="form-control" id="phone" required>
+                <input type="text" class="form-control" id="phone">
+                <div class="error-message" id="phoneError"></div>
             </div>
             <div class="mb-3">
                 <label for="subject" class="form-label">Subject*</label>
-                <input type="text" class="form-control" id="subject">
+                <input type="text" class="form-control" id="subject" required>
+                <div class="error-message" id="subjectError"></div>
             </div>
             <div class="mb-3">
                 <label for="message" class="form-label">Message*</label>
-                <textarea class="form-control" name="message" id="message" rows="4"></textarea>
+                <textarea class="form-control" name="message" id="message" rows="4" required></textarea>
+                <div class="error-message" id="messageError"></div>
             </div>
             <input type="submit" class="btn btn-primary" value="Send" id="submit" />
         </form>
@@ -242,6 +247,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
         </script>
+
+        <script src="/FrontEndBasics/Javascript/funtion.js"></script>
 </body>
 
 </html>
