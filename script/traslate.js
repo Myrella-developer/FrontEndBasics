@@ -14,14 +14,13 @@ function setLanguage(lang){
     document.querySelector('h1').innerText = tituloPpal[lang]
     //navbar
     linksNavbar = document.querySelectorAll('.navbar-nav a')
-    console.log(linksNavbar);
     linksNavbar.forEach((element) => {
         element.textContent = navbar[lang][element.id]
     })
-    //titulos de seccián
+    //titulos de sección
     titulosSeccion = document.querySelectorAll('h2')
-    titulosSeccion.forEach((element, index) => {
-        element.textContent = titulos[lang][`titulo${(index+1)*10}`]
+    titulosSeccion.forEach((element) => {
+        element.textContent = titulos[lang][element.id]
     })
 }
 
@@ -49,17 +48,17 @@ let tituloPpal = {
 
 let titulos = {
     es : {
-        titulo10: 'Quiénes somos?',
-        titulo20: 'Nuestros servicios',
-        titulo30: 'Portafolio',
-        titulo40: 'Ubicación',
-        titulo50: 'Contáctanos'
+        tituloseccion10: 'Quiénes somos?',
+        tituloseccion20: 'Nuestros servicios',
+        tituloseccion30: 'Portafolio',
+        tituloseccion40: 'Ubicación',
+        tituloseccion50: 'Contáctanos'
     },
     en : {
-        titulo10: 'Who we are?',
-        titulo20: 'Our Services',
-        titulo30: 'Portfolio',
-        titulo40: 'Location',
-        titulo50: 'Email US'
+        tituloseccion10: 'Who we are?',
+        tituloseccion20: 'Our Services',
+        tituloseccion30: 'Portfolio',
+        tituloseccion40: 'Location',
+        tituloseccion50: 'Email US'
     }
 }
