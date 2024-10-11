@@ -1,4 +1,10 @@
-buttonsLang = document.querySelectorAll(".btn-lang"),
+buttonsLang = document.querySelectorAll(".btn-lang")
+
+//Se carga idioma por defecto
+if (localStorage.getItem("lang")) {
+    if (localStorage.getItem("lang") == "es") setLanguage("es")
+    else if (localStorage.getItem("lang") == "en") setLanguage("en")
+} else localStorage.setItem("lang", "es")
 
 //listener a todos los botones del tipo btn-lang
 buttonsLang.forEach(element => {
