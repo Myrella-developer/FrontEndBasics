@@ -22,9 +22,6 @@ botonTema.addEventListener("click", (e) => {
 
 function setTema(tema) {
     if (tema == "dark") {
-        console.log('entra a if dark');
-        
-        console.log(document.querySelector("#style"));        
         document.querySelector("#style").href = "./styles/dark.css"
         botonTema.innerText = "😎"
         localStorage.setItem("theme", "dark")
