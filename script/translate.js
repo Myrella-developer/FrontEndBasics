@@ -1,4 +1,4 @@
-buttonsLang = document.querySelectorAll(".btn-lang")
+const buttonsLang = document.querySelectorAll(".btn-lang")
 
 //Se carga idioma por defecto
 if (localStorage.getItem("lang")) {
