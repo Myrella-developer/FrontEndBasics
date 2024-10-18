@@ -16,20 +16,8 @@ buttonsLang.forEach(element => {
 
 
 function setLanguage(lang){
-    //titulo Ppal
-    document.querySelector('h1').innerText = tituloPpal[lang]
-    //navbar
-    // linksNavbar = document.querySelectorAll('.navbar-nav a')
-    // linksNavbar.forEach((element) => {
-    //     element.textContent = navbar[lang][element.id]
-    // })
-    //titulos de sección
-    // titulosSeccion = document.querySelectorAll('h2')
-    // titulosSeccion.forEach((element) => {
-    //     element.textContent = titulos[lang][element.id]
-    // })
-    //Contenido pagina
-    for (const texto in contenidoSecciones[lang]) {      
+    
+    for (const texto in traducciones[lang]) {      
         document.querySelector(`#${texto}`).textContent = contenidoSecciones[lang][texto]
     }
 }

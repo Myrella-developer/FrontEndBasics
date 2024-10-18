@@ -1,45 +1,6 @@
-let tituloPpal = {
-    es : 'Mi página web de negocios',
-    en : 'My Bussines Webpage'
-}
-
-// let navbar = {
-//     es: {
-//         navbara10: 'Quiénes somos?',
-//         navbara20: 'Servicios',
-//         navbara30: 'Portafolio',
-//         navbara40: 'Ubicación',
-//         navbara50: 'Contáctanos'
-//     },
-//     en: {
-//         navbara10: 'Who we are?',
-//         navbara20: 'Services',
-//         navbara30: 'Portfolio',
-//         navbara40: 'Location',
-//         navbara50: 'Email Us'
-//     }
-// }
-
-// let titulos = {
-//     es : {
-//         tituloseccion10: 'Quiénes somos?',
-//         tituloseccion20: 'Nuestros servicios',
-//         tituloseccion30: 'Portafolio',
-//         tituloseccion40: 'Ubicación',
-//         tituloseccion50: 'Contáctanos'
-//     },
-//     en : {
-//         tituloseccion10: 'Who we are?',
-//         tituloseccion20: 'Our Services',
-//         tituloseccion30: 'Portfolio',
-//         tituloseccion40: 'Location',
-//         tituloseccion50: 'Email US'
-//     }
-// }
-
-
-let contenidoSecciones = {
+let traducciones = {
     es: {
+        'tit-ppal': 'Mi página web de negocios',
         navbara10: 'Quiénes somos?',
         navbara20: 'Servicios',
         navbara30: 'Portafolio',
@@ -79,6 +40,7 @@ let contenidoSecciones = {
         form10lab50: "Mensaje*",
     },
     en: {
+        'tit-ppal': 'My Bussines Webpage',
         navbara10: 'Who we are?',
         navbara20: 'Services',
         navbara30: 'Portfolio',
