@@ -20,7 +20,7 @@ Este proyecto es una página web para un negocio ficticio llamado "My Business W
 - **JavaScript**: Para añadir interactividad y mejorar la funcionalidad de la página.
 
 ## Aprendizajes
-Durante el desarrollo de este proyecto, aprendí y apliqué varios conceptos clave del desarrollo Front End:
+Durante el desarrollo de este proyecto, hemos aprendido y aplicado varios conceptos clave del desarrollo Front End:
 
 - **Estructura HTML**: Cómo organizar y estructurar una página web utilizando etiquetas semánticas de HTML.
 - **CSS y Diseño**: Aplicar estilos avanzados con CSS, incluyendo el uso de flexbox y grid para el diseño responsivo.
@@ -35,7 +35,9 @@ Para el diseño de este proyecto, utilizamos **Figma** como parte de nuestra pr�
 El proyecto está organizado en los siguientes archivos:
 
 - **index.html**: Contiene la estructura HTML de la página.
+-
 - **styles/**: Carpeta que contiene los estilos CSS personalizados:
   - **light.css**: Estilos para el modo claro.
   - **dark.css**: Estilos para el modo oscuro.
+  - **scripts/**: Carpeta que incluye los archivos de código JavaScript.
 - **img/**: Carpeta que contiene las imágenes utilizadas en la página.
