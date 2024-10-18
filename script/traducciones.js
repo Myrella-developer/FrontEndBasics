@@ -3,43 +3,53 @@ let tituloPpal = {
     en : 'My Bussines Webpage'
 }
 
-let navbar = {
+// let navbar = {
+//     es: {
+//         navbara10: 'Quiénes somos?',
+//         navbara20: 'Servicios',
+//         navbara30: 'Portafolio',
+//         navbara40: 'Ubicación',
+//         navbara50: 'Contáctanos'
+//     },
+//     en: {
+//         navbara10: 'Who we are?',
+//         navbara20: 'Services',
+//         navbara30: 'Portfolio',
+//         navbara40: 'Location',
+//         navbara50: 'Email Us'
+//     }
+// }
+
+// let titulos = {
+//     es : {
+//         tituloseccion10: 'Quiénes somos?',
+//         tituloseccion20: 'Nuestros servicios',
+//         tituloseccion30: 'Portafolio',
+//         tituloseccion40: 'Ubicación',
+//         tituloseccion50: 'Contáctanos'
+//     },
+//     en : {
+//         tituloseccion10: 'Who we are?',
+//         tituloseccion20: 'Our Services',
+//         tituloseccion30: 'Portfolio',
+//         tituloseccion40: 'Location',
+//         tituloseccion50: 'Email US'
+//     }
+// }
+
+
+let contenidoSecciones = {
     es: {
         navbara10: 'Quiénes somos?',
         navbara20: 'Servicios',
         navbara30: 'Portafolio',
         navbara40: 'Ubicación',
-        navbara50: 'Contáctanos'
-    },
-    en: {
-        navbara10: 'Who we are?',
-        navbara20: 'Services',
-        navbara30: 'Portfolio',
-        navbara40: 'Location',
-        navbara50: 'Email Us'
-    }
-}
-
-let titulos = {
-    es : {
+        navbara50: 'Contáctanos',
         tituloseccion10: 'Quiénes somos?',
         tituloseccion20: 'Nuestros servicios',
         tituloseccion30: 'Portafolio',
         tituloseccion40: 'Ubicación',
-        tituloseccion50: 'Contáctanos'
-    },
-    en : {
-        tituloseccion10: 'Who we are?',
-        tituloseccion20: 'Our Services',
-        tituloseccion30: 'Portfolio',
-        tituloseccion40: 'Location',
-        tituloseccion50: 'Email US'
-    }
-}
-
-
-let contenidoSecciones = {
-    es: {
+        tituloseccion50: 'Contáctanos',
         sec10h10: "Primer artículo",
         sec10h20: "Segundo artículo" , 
         sec10h30: "Tercer artículo",
@@ -69,6 +79,16 @@ let contenidoSecciones = {
         form10lab50: "Mensaje*",
     },
     en: {
+        navbara10: 'Who we are?',
+        navbara20: 'Services',
+        navbara30: 'Portfolio',
+        navbara40: 'Location',
+        navbara50: 'Email Us',
+        tituloseccion10: 'Who we are?',
+        tituloseccion20: 'Our Services',
+        tituloseccion30: 'Portfolio',
+        tituloseccion40: 'Location',
+        tituloseccion50: 'Email US',
         sec10h10: "First article",
         sec10h20: "Second article", 
         sec10h30: "Third article",

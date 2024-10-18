@@ -19,16 +19,16 @@ function setLanguage(lang){
     //titulo Ppal
     document.querySelector('h1').innerText = tituloPpal[lang]
     //navbar
-    linksNavbar = document.querySelectorAll('.navbar-nav a')
-    linksNavbar.forEach((element) => {
-        element.textContent = navbar[lang][element.id]
-    })
+    // linksNavbar = document.querySelectorAll('.navbar-nav a')
+    // linksNavbar.forEach((element) => {
+    //     element.textContent = navbar[lang][element.id]
+    // })
     //titulos de sección
-    titulosSeccion = document.querySelectorAll('h2')
-    titulosSeccion.forEach((element) => {
-        element.textContent = titulos[lang][element.id]
-    })
-    //titulso secundarios
+    // titulosSeccion = document.querySelectorAll('h2')
+    // titulosSeccion.forEach((element) => {
+    //     element.textContent = titulos[lang][element.id]
+    // })
+    //Contenido pagina
     for (const texto in contenidoSecciones[lang]) {      
         document.querySelector(`#${texto}`).textContent = contenidoSecciones[lang][texto]
     }
