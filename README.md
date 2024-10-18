@@ -39,5 +39,5 @@ El proyecto está organizado en los siguientes archivos:
 - **styles/**: Carpeta que contiene los estilos CSS personalizados:
   - **light.css**: Estilos para el modo claro.
   - **dark.css**: Estilos para el modo oscuro.
-  - **scripts/**: Carpeta que incluye los archivos de código JavaScript.
+- **scripts/**: Carpeta que incluye los archivos de código JavaScript.
 - **img/**: Carpeta que contiene las imágenes utilizadas en la página.
