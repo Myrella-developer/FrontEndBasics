@@ -1,33 +1,15 @@
 let botonTema = document.querySelector(".btn-theme")
 
 //Se verifica si hay tema por defecto en localStorage
-if (localStorage.getItem("theme")) {
-    if (localStorage.getItem("theme") == "dark") {
-        setTema("dark")
-    }
-    else {
-        setTema("light")
-    }
-} else setTema('light')
+if (localStorage.getItem("theme")) setTema(localStorage.getItem("theme"))   
+else setTema('dark')
 
-
-botonTema.addEventListener("click", (e) => {
-    if (localStorage.getItem("theme") == "light") {
-        setTema("dark")
-    }
-    else {
-        setTema("light")
-    }
+botonTema.addEventListener("click", () => {
+    localStorage.getItem("theme") == "light" ? setTema("dark") : setTema("light")
 })
 
 function setTema(tema) {
-    if (tema == "dark") {
-        document.querySelector("#style").href = "./styles/dark.css"
-        botonTema.innerText = "😎"
-        localStorage.setItem("theme", "dark")
-    } else {
-        document.querySelector("#style").href = "./styles/light.css"
-        botonTema.innerText = "🌛"
-        localStorage.setItem("theme", "light")
-    }
+        document.querySelector("#style").href = `./styles/${tema}.css`
+        botonTema.innerText = tema == "dark" ? "😎" : "🌛"
+        localStorage.setItem("theme", tema)    
 }
