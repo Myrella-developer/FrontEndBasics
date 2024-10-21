@@ -54,7 +54,7 @@ const displayResults = (data) => {
   data.photos.forEach((photo) => {
     if (totalImagesLoaded < maxImages) {
       searchResult.innerHTML += `
-      <div class="grid-item">
+      <div class="grid-item col-12 col-sm-6 col-md-4">
           <img class="img-api" src="${photo.src.medium}" alt="${photo.alt}">
           <div class="image-content"></div>
       </div>
