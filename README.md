@@ -1,6 +1,12 @@
 # FrontEndBasics
 Front End Basics - HTML, JavaScript CSS & Bootstrap Project
 
+
+<img width="1200" alt="Captura de pantalla 2024-11-23 a las 12 39 09" src="https://github.com/user-attachments/assets/6679a841-5092-4c21-9078-7ce70764cfee">
+
+
+
+
 ## Descripción del Proyecto
 Este proyecto es una página web para un negocio ficticio llamado "My Business Webpage", desarrollado en grupo. La estructura incluye varias secciones:
 
